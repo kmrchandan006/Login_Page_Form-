@@ -162,7 +162,7 @@ h2 {
           console.log("Clicked user:", email);
           $.ajax({
             type: "GET",
-            // url:` https://mobzway-1syl.onrender.com/api/users/${email}`,
+            url:`https://mobzway-la2a.onrender.com/api/users/${email}`,
             success: function (user) {
               console.log("Fetched user details:", user);
               let userDetails = `<p>Email: ${user.emailId}</p>`;

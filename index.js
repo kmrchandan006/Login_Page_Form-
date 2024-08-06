@@ -13,9 +13,9 @@ const server = http.createServer(app);
 const io = socketIO(server);
 
 // Connect to the database
-// val();
+val();
 
-// app.use(cors({origin:"https://mobzway-1syl.onrender.com",}));
+app.use(cors({origin:"https://mobzway-la2a.onrender.com",}));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "public")));
 
